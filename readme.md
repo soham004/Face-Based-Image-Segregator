@@ -193,14 +193,6 @@ If images are incorrectly classified:
 
 * InsightFace GitHub:  
     [https://github.com/deepinsight/insightface](https://github.com/deepinsight/insightface)
-    
-* InsightFace Documentation:  
-    https://insightface.readthedocs.io/
-    
-* ArcFace Paper:  
-    https://arxiv.org/abs/1801.07698
-    
-
 * * *
 
 ## License
