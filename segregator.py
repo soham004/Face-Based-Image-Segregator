@@ -24,7 +24,7 @@ def largest_face(faces):
     )
 
 
-def build_reference_embedding(app, image_dir):
+def build_reference_embedding(app : FaceAnalysis, image_dir):
     embeddings = []
 
     logger.info(f"Building reference embedding from: {image_dir}")
@@ -92,7 +92,7 @@ def main():
     )
 
     logger.info("Initializing InsightFace model...")
-    app = FaceAnalysis(name="buffalo_l", providers=providers)
+    app = FaceAnalysis(name="buffalo_sc", providers=providers)
     app.prepare(ctx_id=0, det_size=(640, 640))
 
     ref_embedding = build_reference_embedding(app, args.known_dir)
